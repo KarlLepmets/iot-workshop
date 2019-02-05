@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/KarlLepmets/iot-workshop.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "yarn build && node ./build"
+  }
+}
